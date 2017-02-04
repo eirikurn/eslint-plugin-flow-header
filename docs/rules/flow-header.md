@@ -2,8 +2,8 @@
 
 Flow is a great static type checker for JavaScript. Unfortunately it's design
 seems to assume that developers are slowly incorporating flow into large legacy
-code bases, instead of starting fresh. In this sense, each file needs to opt
-into type checking, Otherwise obvious type errors may be missed.
+code bases, instead of starting fresh. This means that each file needs to opt
+into type checking, otherwise obvious type errors may be missed.
 
 
 ## Rule Details
