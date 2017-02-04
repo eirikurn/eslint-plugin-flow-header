@@ -29,6 +29,11 @@ var hello = 'world';
 
 ```
 
+## Automatic fixing
+
+The rule also supports `eslint --fix`. It adds a `// @flow` line to the top
+of files that don't have it already.
+
 ## When Not To Use It
 
 This rule is not appropriate when your project has a mix of plain (legacy) js with new flow typed js.
