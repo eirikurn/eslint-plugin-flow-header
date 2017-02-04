@@ -1,4 +1,4 @@
-# Check exitance of flow header comment. (flow-required)
+# Check exitance of flow header comment. (flow-header)
 
 Flow is a great static type checker for JavaScript. Unfortunately it's design
 seems to assume that developers are slowly incorporating flow into large legacy
