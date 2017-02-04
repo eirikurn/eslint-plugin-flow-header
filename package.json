@@ -2,6 +2,7 @@
   "name": "eslint-plugin-flow-header",
   "version": "0.1.0",
   "description": "Check existance of flow header comment.",
+  "repository": "eirikurn/eslint-plugin-flow-header",
   "keywords": [
     "eslint",
     "eslintplugin",
