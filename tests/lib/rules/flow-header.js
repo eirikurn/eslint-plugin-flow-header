@@ -22,7 +22,9 @@ ruleTester.run("flow-header", rule, {
 
     valid: [
         "// @flow\nvar foo = 5;",
-        "'use strict'\n// @flow\nvar foo = 5;"
+        "'use strict'\n// @flow\nvar foo = 5;",
+        "// @noflow\nvar foo = 5;",
+        "'use strict'\n// @noflow\nvar foo = 5;"
     ],
 
     invalid: [
