@@ -5,6 +5,7 @@ seems to assume that developers are slowly incorporating flow into large legacy
 code bases, instead of starting fresh. This means that each file needs to opt
 into type checking, otherwise obvious type errors may be missed.
 
+**NOTE**: This package is deprecated in favor of the [`require-valid-file-annotation`](https://github.com/gajus/eslint-plugin-flowtype#require-valid-file-annotation) rule in [eslint-plugin-flowtype](https://github.com/gajus/eslint-plugin-flowtype).
 
 ## Rule Details
 
