@@ -2,6 +2,8 @@
 
 Check existance of flow header comment.
 
+**NOTE**: This package is deprecated in favor of the [`require-valid-file-annotation`](https://github.com/gajus/eslint-plugin-flowtype#require-valid-file-annotation) rule in [eslint-plugin-flowtype](https://github.com/gajus/eslint-plugin-flowtype).
+
 ## Installation
 
 You'll first need to install [ESLint](http://eslint.org):
