@@ -29,6 +29,13 @@ var hello = 'world';
 
 ```
 
+```js
+
+// @noflow
+var hello = 'world';
+
+```
+
 ## Automatic fixing
 
 The rule also supports `eslint --fix`. It adds a `// @flow` line to the top
